@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vlado\Desktop\mylab2\mp2-lab2-matrix\sln\vc19\CMakeFiles\78719de4d8ca7e25d97af81be690329b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EAF77171-EBD7-3D84-A55C-87BE48DFCC9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
