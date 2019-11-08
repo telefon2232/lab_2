@@ -73,6 +73,9 @@ TVector<ValType>::TVector(int s, int si)//:StartIndex(si),Size(s)
 			pVector = new ValType[s];
 			Size = s;
 			StartIndex = si;
+			for (int i = 0; i < s; i++) {
+				pVector[i] = 0;
+			}
 		}
 		else
 			throw (si);
@@ -200,7 +203,7 @@ TVector<ValType> TVector<ValType>::operator*(const ValType& val)
 template <class ValType> // сложение
 TVector<ValType> TVector<ValType>::operator+(const TVector<ValType>& v)
 {
-	if (Size != v.Size)
+	if ((Size != v.Size) || (StartIndex != v.StartIndex))
 		throw("Not equal sizes");
 	TVector<ValType> temp_var(Size, StartIndex);
 	for (int i = 0; i < Size; i++)	{
